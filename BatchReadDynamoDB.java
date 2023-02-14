@@ -31,7 +31,6 @@ public class BatchReadDynamoDB {
             // set the hash key and Range Key
             segmentTableKeysAndAttributes.addHashAndRangePrimaryKey("PNR","KHAFII","TKT","0755675663873");
             segmentTableKeysAndAttributes.addHashAndRangePrimaryKey("PNR","YUHPCP","TKT","0758622537562");
-
             System.out.println("Processing...");
 
             // filter for the required elements
